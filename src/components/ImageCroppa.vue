@@ -484,7 +484,7 @@
 		margin-bottom: 0;
 	}
 
-	.el-message-box {
+/* 	.el-message-box {
 		width: auto;
 		border-radius: 8px;
 	}
@@ -498,7 +498,7 @@
 		border-radius: 8px;
 		width: 80px;
 		margin-bottom: 6px;
-	}
+	} */
 
 	.footer {
 		background: rgba(0, 0, 0, 0.05);
