@@ -2,7 +2,7 @@
 
 	<div class="image-croppa">
 		<el-row class="croppa-panel">
-			<el-col :span="11" style="width: auto;margin: 20px 30px;">
+			<el-col :span="11" style="width: auto;margin:10px auto;">
 				<div class="box-title" style="">️️<span>🎆 上传图片 🎆</span></div>
 				<div class="center-block">
 					<div class="croppa-wrapper-control"
@@ -17,7 +17,7 @@
 			<el-col class="update-view-control" :span="2">
 
 			</el-col>
-			<el-col :span="11" style="width: auto;margin: 20px 30px;">
+			<el-col :span="11" style="width: auto;margin:10px auto;">
 				<div class="box-title">️<span>🎑 效果预览 🎑</span></div>
 				<div class="center-block">
 					<div class="croppa-wrapper-control"
@@ -271,7 +271,7 @@
 
 <style>
 	#app {
-		margin-top: 27px !important;
+		margin-top: 38px !important;
 
 	}
 
@@ -530,6 +530,12 @@
 			justify-content: center;
 			align-items: center;
 			width: 100%; */
+		}
+		
+		.croppa-panel .el-col {
+			position: relative;
+			text-align: center;
+			margin: 20px 30px;
 		}
 		
 		.croppa-panel.el-row {
