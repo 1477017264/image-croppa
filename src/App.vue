@@ -37,18 +37,18 @@
 		color: #2c3e50;
 		margin-top: 60px;
 	}
-
+	
 	.el-message-box {
 		width: auto;
 		border-radius: 8px;
 	}
-
-	.el-message-box .el-message-box__container {
+	
+	.el-message-box__container {
 		margin-top: 6px;
 		font-size: 15px;
 	}
-
-	.el-message-box__btns .el-button--small.el-button--primary {
+	
+	.el-button--small.el-button--primary {
 		border-radius: 8px;
 		width: 80px;
 		margin-bottom: 6px;
