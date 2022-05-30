@@ -2,7 +2,7 @@
 
 	<div class="image-croppa">
 		<el-row class="croppa-panel">
-			<el-col :span="11">
+			<el-col :span="11" style="width: auto;margin: 20px 30px;">
 				<div class="box-title" style="">️️<span>🎆 上传图片 🎆</span></div>
 				<div class="center-block">
 					<div class="croppa-wrapper-control"
@@ -17,7 +17,7 @@
 			<el-col class="update-view-control" :span="2">
 
 			</el-col>
-			<el-col :span="11">
+			<el-col :span="11" style="width: auto;margin: 20px 30px;">
 				<div class="box-title">️<span>🎑 效果预览 🎑</span></div>
 				<div class="center-block">
 					<div class="croppa-wrapper-control"
@@ -275,10 +275,6 @@
 
 	}
 
-	.croppa-container {
-		background: rgba(0, 0, 0, 0.05);
-	}
-
 	.icon.icon-remove {
 		width: 22px;
 		height: 22px;
@@ -321,6 +317,7 @@
 		max-width: 360px ;
 		max-height: 360px ;
 		border-radius: 8px;
+		background: rgba(0, 0, 0, 0.05);
 	}
 
 	.croppa-wrapper-control .croppa-container canvas {
@@ -354,12 +351,7 @@
 		justify-content: center;
 		align-items: center;
 	}
-
-	.el-col-11 {
-		width: auto;
-		margin-top: 20px;
-	}
-
+	
 	.image-croppa .croppa-control-bar .el-form {
 		clear: left;
 		margin: 10px;
@@ -396,10 +388,6 @@
 		border-radius: 8px;
 		height: 42px;
 	}
-
-	/* 	.image-croppa .croppa-control-bar .el-form .el-col-7{
-		width: auto;
-	} */
 
 	.image-croppa .croppa-control-bar .el-form .el-col-4 .el-form-item__content {
 		width: 200px;
@@ -550,11 +538,6 @@
 			align-content: center;
 			justify-content: center;
 			align-items: center;
-		}
-		
-		.el-col-11 {
-			width: auto;
-			margin: 20px 30px;
 		}
 		
 		.croppa-wrapper-control .croppa-container {
