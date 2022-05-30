@@ -39,18 +39,18 @@
 	}
 	
 	.el-message-box {
-		width: auto;
-		border-radius: 8px;
+		width: auto !important; 
+		border-radius: 8px !important;
 	}
 	
 	.el-message-box__container {
-		margin-top: 6px;
-		font-size: 15px;
+		margin-top: 6px !important; 
+		font-size: 15px !important;
 	}
 	
 	.el-button--small.el-button--primary {
-		border-radius: 8px;
-		width: 80px;
-		margin-bottom: 6px;
+		border-radius: 8px !important;
+		width: 80px !important;
+		margin-bottom: 6px !important;
 	}
 </style>
