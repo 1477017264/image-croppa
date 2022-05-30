@@ -376,9 +376,17 @@
 		text-align: left;
 	}
 
-	.image-croppa .croppa-control-bar .el-form .el-col-4,
-	.el-col-5,
-	.el-col-7 {
+	.image-croppa .croppa-control-bar .el-form .el-col-4 {
+		width: auto;
+		margin: 10px;
+	}
+	
+	.image-croppa .croppa-control-bar .el-form .el-col-5{
+		width: auto;
+		margin: 10px;
+	}
+	
+	.image-croppa .croppa-control-bar .el-form .el-col-7 {
 		width: auto;
 		margin: 10px;
 	}
